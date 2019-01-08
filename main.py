@@ -88,10 +88,7 @@ class Library():
             print("\n The Library contains no such volume on its shelves")
         else:
             print("\n Title: ", book.title, "\n Author: ", book.author, "\n Language: ", book.language, "\n Stars out of 5: ", "*"*book.rating, "\n Finished reading: ", book.date)
-        
-#class Account():
-#        INPUT FOR ACCOUNT
-    
+     
 def main():
     
     bodleian = Library()
